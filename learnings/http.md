@@ -1,10 +1,69 @@
 ## 1. Write code that executes asynchronously
 
+The asynchronous code given below is used in the website to return latitude and longitude for a given postcode.
+
+```
+export const getLongLat = async (postcode) => {
+try {
+const postcodeApiUrl = `https://api.postcodes.io/postcodes/${postcode}`;
+const response = await fetch(postcodeApiUrl);
+
+    if (response.ok) {
+      const data = await response.json();
+      const { latitude, longitude } = data.result;
+      return { latitude, longitude };
+    } else {
+      throw new Error(response.status);
+    }
+
+} catch (error) {
+if (error.message === "404") {
+console.error(`⚠️ Couldn't find "${postcode}"`);
+throw new NotFoundError();
+} else {
+console.error("⚠️ Something went wrong");
+throw new Error("Failed to fetch latitude and longitude");
+}
+}
+};
+```
+
 ## 2. Use callbacks to access values that aren’t available synchronously
+
+Used use the async/await syntax instead of callbacks.
 
 ## 3. Use promises to access values that aren’t available synchronously
 
+Used use the async/await syntax instead of callbacks.
+
 ## 4. Use the fetch method to make HTTP requests and receive responses
+
+Used fetch method to get admin district
+
+```
+export const getLocation = async (postcode) => {
+  try {
+    const postcodeApiUrl = `https://api.postcodes.io/postcodes/${postcode}`;
+    const response = await fetch(postcodeApiUrl);
+
+    if (response.ok) {
+      const data = await response.json();
+      const { admin_district } = data.result;
+      return { admin_district };
+    } else {
+      throw new Error(response.status);
+    }
+  } catch (error) {
+    if (error.message === "404") {
+      console.error(`⚠️ Couldn't find "${postcode}"`);
+      throw new NotFoundError();
+    } else {
+      console.error("⚠️ Something went wrong");
+      throw new Error("Failed to location");
+    }
+  }
+};
+```
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
