@@ -2,8 +2,6 @@ TD Weather App uses postcode to generate a map and accurate sunrise-sunset timin
 
 https://github.com/DeepsDali/Weather-Forecast-Project/deployments/activity_log?environment=github-pages
 
-<img src="..\images\TDWeatherWebsite.png" alt="Semantic Code" style="max-width: 200px;">
-
 ## 1. Write code that executes asynchronously
 
 The asynchronous code given below is used in the website to return latitude and longitude for a given postcode.
@@ -36,15 +34,15 @@ throw new Error("Failed to fetch latitude and longitude");
 
 ## 2. Use callbacks to access values that aren’t available synchronously
 
-Used use the async/await syntax instead of callbacks.
+Used the async/await syntax instead of callbacks.
 
 ## 3. Use promises to access values that aren’t available synchronously
 
-Used use the async/await syntax instead of callbacks.
+Used the async/await syntax instead of callbacks.
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-Used fetch method to get admin district
+Used fetch method to get admin district.
 
 ```
 export const getLocation = async (postcode) => {
@@ -77,11 +75,11 @@ Used fetch method to make GET requests to different APIs and retrieve data.
 
 ## 6. Use the map array method to create a new array containing new values
 
-In this project, I didn't use map method.
+In this project, map method was not used.
 
 ## 7. Use the filter array method to create a new array with certain values removed
 
-In this project, I didn't use filter method.
+In this project, filter method was not used.
 
 ## 8. Access DOM nodes using a variety of selectors
 
@@ -120,11 +118,11 @@ const newImage = createElement("img", {
 
 ## 10. Toggle the classes applied to DOM nodes to change their CSS properties
 
-In this project, I didn't toggle classes.
+In this project, toggle was not used with classes.
 
 ## 11. Use consistent layout and spacing
 
-The whole site is inside a grid container with header main and footer sections. The main section is further divided in sub sections in a grid layout
+The whole site is inside a grid container with header, main and footer sections. The main section is further divided in sub sections in a grid layout
 
 ```
 .grid-container {
@@ -157,21 +155,20 @@ main {
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
-The use of CSS Grid throughout the styles provides consistent layouts for different sections and the gap property ensures consistent spacing between grid items
+The use of CSS Grid throughout the styles provides consistent layouts for different sections and the gap property ensures consistent spacing between grid items.
 
 Padding and margins are used with specific values to create consistent spacing between elements, ensuring an organized and harmonious design.
 
-The use of media queries (@media) helps to maintain consistent spacing on different screen sizes. Different styles and spacing are applied based on the screen width to ensure a visually appealing layout on both desktop and mobile devices.
+The use of media queries helps to maintain consistent spacing on different screen sizes. Different styles and spacing are applied based on the screen width to ensure a visually appealing layout on both desktop and mobile devices.
 
 The clamp() function is used in font sizes to ensure that text scales appropriately and consistently based on the screen size. This helps maintain a readable and well-proportioned layout across different devices.
 
 ## 13. Debug client side JS in our web browser
 
-Used console.log() or console.error() to log validation-related messages and Inspect the DOM elements and their attributes using the browser's Elements tab in the developer tools.
+Used console.log() or console.error() to log validation-related messages and inspect the DOM elements and their attributes using the browser's Elements tab in the developer tools.
+
 Tested the form with different input values and check if the validation logic is working as expected. Inspect the console for any error messages.
 
 ## 14. Use console.log() to help us debug our code
 
-Used Console.log() on event listeners to check if button clicks. Also for form validation function to check if an input field is empt and on functions dynamically adding
-
-elements to the DOM
+Used Console.log() on event listeners to check if button clicks. Also used for form validation function to check if an input field is empty and on functions dynamically adding elements to the DOM.
