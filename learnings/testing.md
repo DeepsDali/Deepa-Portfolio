@@ -1,5 +1,13 @@
 # Testing portfolio
 
+**Aim:** Learn how to make sure code works correctly by creating automated tests.
+
+**Project:** With Task-Tracker app you can add, edit, delete and filter tasks based on their category and completion status.
+
+https://deepsdali.github.io/Task-Tracker/
+
+# Learnings
+
 ## 1. Check that passing a given input into our tests returns the expected output
 
 Used test helper functions to compare expected results with the actual results.

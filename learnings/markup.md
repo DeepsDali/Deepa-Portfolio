@@ -1,4 +1,12 @@
-Valour Academy agency website is designed to promote and provide information about Valour Academy, a training program for real-life superheroes. The website showcases the academy's mission, team of trainers, training programs, and allows users to get in touch through a contact form. It has a responsive design and can be accessed here: https://benante.github.io/agency-website/
+# Markup portfolio
+
+**Aim:** Learn how to make web pages—accessible, to use semantic HTML, and well-organised CSS.
+
+**Project:** Valour Academy agency website is designed to promote and provide information about Valour Academy, a training program for real-life superheroes. The website has a responsive design and it showcases the academy's mission, team of trainers, training programs, and allows users to get in touch through a contact form.
+
+https://benante.github.io/agency-website/
+
+# Learnings
 
 ## 1. Structure a site using semantic HTML to aid accessibility
 

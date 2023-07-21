@@ -1,6 +1,12 @@
-TD Weather App uses postcode to generate a map and accurate sunrise-sunset timings, as well as a comprehensive daily and 5-day weather forecast. To gather this information, the app integrates three APIs: open-meteo.com, postcodes.io, and thunderforest.com.
+# HTTP portfolio
+
+**Aim:** Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
+
+**Project:** TD Weather App uses postcode to generate a map and accurate sunrise-sunset timings, as well as a comprehensive daily and 5-day weather forecast. To gather this information, the app integrates three APIs: open-meteo.com, postcodes.io, and thunderforest.com.
 
 https://github.com/DeepsDali/Weather-Forecast-Project/deployments/activity_log?environment=github-pages
+
+# Learnings
 
 ## 1. Write code that executes asynchronously
 
